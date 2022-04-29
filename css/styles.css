@@ -1,13 +1,66 @@
+/* Style Properties */
+
+/* Tag Selectors */
+
 body {
-    background-color: #EAF6F6;
+    background-color: #eaeaf6;
 }
 
+/*
 h1, h3 {
     color: #66BFCF;
 }
+*/
 
-hr {
-    border-style: none;
-    height: 4px;
-    background-color: white;
+
+/* Class Selectors */
+
+.cards {
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.card{
+    background-color: rgb(180, 215, 255);
+    padding: 1%;
+    margin: 3%;
+    border-radius: 6px;
+}
+
+/* cardlink properties */
+.cardlink{
+    color: black;
+}
+
+.cardlink:hover{
+    color: #8888ff;
+}
+
+.cardlink:visited{
+    color: #88ff88;
+}
+
+/* footlink properties */
+.footlink{
+    color: Black;
+}
+
+.footlink:hover{
+    color: #8888ff;
+}
+
+.footlink:visited{
+    color: #88ff88;
+}
+
+.last{
+    /* position */
+    margin-left: auto;
+    margin-right: auto;
+    margin: 3%;
+    padding: 1%;
+
+    /* text */
+    text-align: center;
+}
+
