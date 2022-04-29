@@ -12,7 +12,6 @@ h1, h3 {
 }
 */
 
-
 /* Class Selectors */
 
 .cards {
@@ -37,7 +36,7 @@ h1, h3 {
 }
 
 .cardlink:visited{
-    color: #88ff88;
+    color: #bf7a36;
 }
 
 /* footlink properties */
@@ -50,9 +49,10 @@ h1, h3 {
 }
 
 .footlink:visited{
-    color: #88ff88;
+    color: #bf7a36;
 }
 
+/* footer */
 .last{
     /* position */
     margin-left: auto;
